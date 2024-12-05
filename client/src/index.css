@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .partnersCardWrapper {
+    border: 1px solid black;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .partnerCard {
+    display: flex;
+    border: 1px solid black;
+    padding: 20px;
+    justify-content: space-between;
+  }
+  
+  .partnerHeading {
+    font-size: 20px;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .headerIcon {
+    content: url('./assets/icon.png');
+    max-width: 66px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  li {
+    list-style: none;
+    min-width: 600px;
+  }
+  
+  p {
+    margin: 0px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form button {
+    margin-top: 5px;
+  }
+  
+  .formGroup {
+    display: flex;
+    flex-direction: column;
+  }
